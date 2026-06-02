@@ -1,0 +1,392 @@
+/*RESPONSIVE*/
+
+@media only screen and (max-width: 1211px) {
+    .header-section .logo a {
+        font-size: 22px;
+    }
+
+    /* *, *::after, *::before { outline: 1px solid red; } */
+
+    .header-section .primary-nav ul li a {
+        font-size: 14px;
+    }
+
+    .header-section .nav-bar {
+        font-size: 18px;
+    }
+
+    .hero .display-heading {
+        font-size: 33px;
+    }
+
+    .hero .intro-text p {
+        font-size: 14px;
+    }
+
+    .hero .intro-text .cta-buttons .btn-work {
+        font-size: 14px;
+
+    }
+
+    .hero .intro-text .cta-buttons .link-underline {
+        font-size: 15px;
+    }
+
+    .about .intro-content h3 {
+        font-size: 28px;
+    }
+
+    .about .personal-quote p {
+        font-size: 25px;
+    }
+
+    .resume-section .resume-content .intro {
+        font-size: 28px;
+    }
+
+    .resume-section .resume-content .intro-descrip {
+        font-size: 15px;
+    }
+
+    .resume-section .expreince-grid .item-header .position h4 {
+        font-size: 18px;
+    }
+
+    .resume-section .expreince-grid .item-header .position h5 {
+        font-size: 15px;
+    }
+
+    .resume-section .expreince-grid .expreince-item .item-content {
+        font-size: 14px;
+    }
+
+    .portfolio .resume-text h2 {
+        font-size: 28px;
+    }
+
+    .portfolio .portfolio-card .portfolio-title {
+        font-size: 16px;
+    }
+
+    .services .services-text h2 {
+        font-size: 28px;
+    }
+
+    .services .service-blog .service-icon i {
+        font-size: 26px;
+        padding: 10px 20px;
+    }
+
+    .services .service-blog h3 a {
+        font-size: 22px;
+    }
+
+    .services .service-blog p {
+        font-size: 14px;
+    }
+
+    .services .service-blog .service-link a span {
+        font-size: 14px;
+    }
+
+    .contact .contact-text h2 {
+        font-size: 28px;
+    }
+
+    .contact-form .form-intro-text h3 {
+        font-size: 28px;
+    }
+
+    .contact-form .form-intro-text p {
+        font-size: 16px;
+    }
+
+    .contact-sidebar .contact-header h3 {
+        font-size: 25px;
+    }
+
+    .contact-sidebar .contact-header p {
+        font-size: 15px;
+    }
+
+    .contact-form .send-button {
+        padding: 16px;
+    }
+
+    .footer .copyright-text h2 {
+        font-size: 14px;
+    }
+
+    .footer .credits p {
+        font-size: 14px;
+    }
+
+    .footer .social-links-connect a i {
+        font-size: 15px;
+    }
+
+}
+
+/* 992 dekhbi */
+@media only screen and (max-width:1024px) {
+    .hero {
+        padding: 55px 0px;
+
+    }
+
+    .intro-text h1 {
+        font-size: 10px;
+    }
+
+    .hero .display-heading {
+        font-size: 24px;
+    }
+
+    .hero .intro-text p {
+        font-size: 12px;
+    }
+
+    .hero .intro-text .cta-buttons .btn-work {
+        font-size: 11px;
+    }
+
+    .hero .intro-text .cta-buttons .link-underline {
+        font-size: 12px;
+    }
+
+    .hero .meta .meta-item i {
+        font-size: 12px;
+    }
+
+    .hero .meta .meta-item span {
+        font-size: 12px;
+    }
+}
+
+/* 901 dekhbi */
+@media only screen and (max-width:991px) {
+    .navbar-toggler-icon {
+        width: 16px;
+        height: 30px;
+    }
+
+    .skill .skill-block .skill-descrip {
+        font-size: 13px;
+    }
+
+    .skill .note p {
+        margin: 110px 0;
+    }
+
+    .skill .soft-card {
+        padding: 20px 15px;
+        margin: 50px 0;
+    }
+
+    .resume-section {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+/* 768 dekhbi */
+@media only screen and (max-width:900px) {
+    .navbar-toggler-icon {
+        width: 16px;
+        height: 30px;
+    }
+
+    .skill .skill-block .skill-descrip {
+        font-size: 13px;
+    }
+
+    .skill .note p {
+        margin: 110px 0;
+    }
+
+    .skill .soft-card {
+        padding: 20px 15px;
+        margin: 50px 0;
+    }
+
+    .resume-section {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+
+/* 601 dekhbi */
+@media only screen and (max-width:767px) {
+    .navbar-toggler-icon {
+        width: 16px;
+        height: 30px;
+    }
+
+    .skill .skill-block .skill-descrip {
+        font-size: 13px;
+    }
+
+    .skill .note p {
+        margin: 110px 0;
+    }
+
+    .skill .soft-card {
+        padding: 20px 15px;
+        margin: 50px 0;
+    }
+
+    .resume-section {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+
+/* 576 dekhbi */
+@media only screen and (max-width:600px) {
+    .navbar-toggler-icon {
+        width: 16px;
+        height: 30px;
+    }
+
+    .skill .skill-block .skill-descrip {
+        font-size: 13px;
+    }
+
+    .skill .note p {
+        margin: 110px 0;
+    }
+
+    .skill .soft-card {
+        padding: 20px 15px;
+        margin: 50px 0;
+    }
+
+    .resume-section {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+
+/* 481 dekhbi */
+@media only screen and (max-width:575px) {
+    .navbar-toggler-icon {
+        width: 16px;
+        height: 30px;
+    }
+
+    .skill .skill-block .skill-descrip {
+        font-size: 13px;
+    }
+
+    .skill .note p {
+        margin: 110px 0;
+    }
+
+    .skill .soft-card {
+        padding: 20px 15px;
+        margin: 50px 0;
+    }
+
+    .resume-section {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+
+/* 421 dekhbi */
+@media only screen and (max-width:480px) {
+    .navbar-toggler-icon {
+        width: 16px;
+        height: 30px;
+    }
+
+    .skill .skill-block .skill-descrip {
+        font-size: 13px;
+    }
+
+    .skill .note p {
+        margin: 110px 0;
+    }
+
+    .skill .soft-card {
+        padding: 20px 15px;
+        margin: 50px 0;
+    }
+
+    .resume-section {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+
+/* 351 dekhbi */
+@media only screen and (max-width:420px) {
+    .navbar-toggler-icon {
+        width: 16px;
+        height: 30px;
+    }
+
+    .skill .skill-block .skill-descrip {
+        font-size: 13px;
+    }
+
+    .skill .note p {
+        margin: 110px 0;
+    }
+
+    .skill .soft-card {
+        padding: 20px 15px;
+        margin: 50px 0;
+    }
+
+    .resume-section {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+/* 301 dekhbi */
+@media only screen and (max-width:350px) {
+    .navbar-toggler-icon {
+        width: 16px;
+        height: 30px;
+    }
+
+    .skill .skill-block .skill-descrip {
+        font-size: 13px;
+    }
+
+    .skill .note p {
+        margin: 110px 0;
+    }
+
+    .skill .soft-card {
+        padding: 20px 15px;
+        margin: 50px 0;
+    }
+
+    .resume-section {
+        margin-bottom: 50px;
+    }
+
+
+}
