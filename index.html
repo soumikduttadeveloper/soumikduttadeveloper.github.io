@@ -4,8 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="portfolio, skills">
+  <meta name="description" content="This is the portfolio of soumik dutta">
+  <meta name="author" content="Soumik Dutta">
+  <meta name="theme-color" content="#EF7D7D">
   <title>Soumik Dutta | Portfolio</title>
-  <link rel="Icon" type="image/" href="">
+  <link rel="icon" type="image/x-icon" href="./assets/images/">
   <!-- Bootstrap Icon CDN -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <!-- Bootstrap CSS CDN -->
@@ -14,73 +18,15 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <!-- Aos css Cdn -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+  <!-- Fancy box cdn -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css" />
   <!-- css link -->
-  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/styles.css?ver=1.1.0">
   <link rel="stylesheet" href="./assets/css/responsive.css">
-
-
-
 
 </head>
 
 <body>
-  <!-- 
-  <ul class="test-list d-flex gap-5">
-    <li data-number="86">Lorem ipsum dolor sit amet.</li>
-    <li data-number="75">Molestiae iure necessitatibus quas facere.</li>
-    <li data-number="64">Corrupti laborum sit neque accusantium.</li>
-  </ul>
-
-  <div class="demo-paragraphs">
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Incidunt ullam ipsa cumque laudantium!</p>
-    <p>Necessitatibus, fuga voluptate. Eos, hic.</p>
-  </div> -->
-
-  <style>
-    /* .demo-paragraphs{
-      counter-reset: xyz;
-    }
-    .demo-paragraphs p::before{
-      counter-increment: xyz;
-      content: counter(xyz);
-
-      background-color: pink;
-      width: 30px;
-      height: 30px;
-      display: inline-block;
-      text-align: center;
-      line-height: 30px;
-      border-radius: 50%;
-      margin-right: 15px;
-    }
-
-
-
-
-
-
-
-
-
-    .test-list li{
-      position: relative;
-      background-color: pink;
-      padding: 20px;
-      height: 200px;
-    }
-
-    .test-list li::after{
-      content: attr(data-number) '% Off';
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      font-size: 30px;
-    } */
-  </style>
-
 
   <!-- Header Section start -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
@@ -149,13 +95,9 @@
             </div>
           </div>
           <div class="col-md-5">
-            <figure class="profile-image">
+            <figure class="profile-image rounded">
               <img src="./assets/images/soumik-dutta.webp" alt="Portrait of designer" class="img-fluid">
               <figcaption class="visually-hidden">My Profile Image</figcaption>
-              <div class="badge-note">
-                <i class="bi bi-star"></i>
-                <span>10+ yrs building elegant UIs</span>
-              </div>
             </figure>
           </div>
         </div>
@@ -232,7 +174,7 @@
           </div>
         </div>
       </div>
-      <!-- Journey Line Section Start -->
+      <!-- Journey Line Section Start
       <div class="journey-wrap">
         <div class="row">
           <div class="col-md-3">
@@ -268,7 +210,7 @@
             </article>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- Quote -->
       <blockquote data-aos="fade-up" class="personal-quote text-center">
         <p>I enjoy building simple and meaningful websites with clean code and minimal design.</p>
@@ -316,7 +258,7 @@
         <div class="col-md-4">
           <article class="skill-block">
             <header class="d-flex align-items-center justify-content-between">
-              <h2 class="skill-title">Interface Design</h2>
+              <h2 class="skill-title">UI Design</h2>
               <span class="skill-badge">Expert</span>
             </header>
             <p class="skill-descrip">Learning to design clean and modern user interfaces with a focus on usability</p>
@@ -329,7 +271,7 @@
         <div class="col-md-4">
           <article class="skill-block">
             <header class="d-flex align-items-center justify-content-between">
-              <h2 class="skill-title">Prototyping</h2>
+              <h2 class="skill-title">Photoshop</h2>
               <span class="skill-badge">Advanced</span>
             </header>
             <p class="skill-descrip">I enjoy turning ideas into simple visual layouts before building websites.</p>
@@ -342,10 +284,11 @@
         <div class="col-md-4">
           <article class="skill-block">
             <header class="d-flex align-items-center justify-content-between">
-              <h2 class="skill-title">Design Systems</h2>
+              <h2 class="skill-title">Bootstrap</h2>
               <span class="skill-badge">Advanced</span>
             </header>
-            <p class="skill-descrip">I am learning how to design simple and consistent UI elements for better websites.
+            <p class="skill-descrip">I am learning how to design simple and consistent UI elements for better websites
+              using bootstrap.
             </p>
             <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
               aria-valuemin="0" aria-valuemax="100">
@@ -397,14 +340,12 @@
       </div>
 
       <!-- Skills Section row last -->
-      <div class="row">
-        <div data-aos="fade-right" class="col-md-7">
-          <div class="note">
-            <p>“I am currently learning web development and building my skills in HTML, CSS, and JavaScript. I enjoy
-              creating clean and responsive web designs.”</p>
-          </div>
-        </div>
-        <div data-aos="fade-left" class="col-md-5">
+      <div class="note text-center">
+        <p>“I am currently learning web development and building my skills in HTML, CSS, and JavaScript. I enjoy
+          creating clean and responsive web designs.”</p>
+      </div>
+    </div>
+    <!-- <div data-aos="fade-left" class="col-md-5">
           <div class="soft-card text-start">
             <h2>Toolbox</h2>
             <ul class="design-tools list-unstyled  m-0 p-0">
@@ -426,12 +367,12 @@
               </li>
             </ul>
           </div>
-        </div>
-      </div>
+        </div> -->
+    </div>
     </div>
   </section>
 
-  <!-- Resume Section Start -->
+  <!-- Resume Section Start
   <section data-aos="zoom-in" class="resume-section">
     <div class="container">
       <div class="resume-text text-center">
@@ -498,7 +439,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Portfolio Section Start -->
   <section class="portfolio" id="projects-section">
@@ -508,115 +449,282 @@
         <p>Here are some of the projects I have built while learning frontend development.</p>
       </div>
 
-      <ul class="nav nav-underline justify-content-center m-5">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">All Projects</a>
+      <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+            type="button" role="tab" aria-controls="pills-home" aria-selected="true">All Projects</button>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Branding</a>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Branding</button>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Web Design</a>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+            type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Website</button>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Print Design</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Motion</a>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled"
+            type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Poster</button>
         </li>
       </ul>
 
-      <div class="row">
-        <div class="col-md-4 col-sm-6">
-          <div class="portfolio-card mb-5">
-            <div class="portfolio-image rounded">
-              <a href="./assets/images/portfolio-3.webp" data-fancybox="gallery" data-caption="Brand identity">
-                <img src="./assets/images/portfolio-3.webp" alt="portfolio-image" class="img-fit rounded">
-              </a>
+      <div class="tab-content" id="pills-tabContent">
+        <!-- All Projects -->
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+          tabindex="0">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card mb-5">
+                <div class="portfolio-image rounded">
+                  <a href="./assets/images/travelworld.png" data-fancybox="gallery" data-caption="Website Design">
+                    <img src="./assets/images/travelworld.png" alt="portfolio-image" class="img-fit rounded">
+                  </a>
+                </div>
+                <h3 class="portfolio-title text-center">Website Design</h3>
+                <p class="portfolio-description text-center">Corporate branding and visual identity Website</p>
+              </div>
             </div>
-            <h3 class="portfolio-title text-center">Brand Identity</h3>
-            <p class="portfolio-description text-center">Corporate branding and visual identity system</p>
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card mb-5">
+                <div class="portfolio-image rounded">
+                  <a href="./assets/images/ecommerce.png" data-fancybox="gallery" data-caption="Ecommerce Website">
+                    <img src="./assets/images/ecommerce.png" alt="portfolio-image" class="img-fit rounded">
+                  </a>
+                </div>
+                <h3 class="portfolio-title text-center">E-commerce Platform</h3>
+                <p class="portfolio-description text-center">Modern online shopping experience</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card mb-5">
+                <div class="portfolio-image rounded">
+                  <a href="./assets/images/magazinedesign.png" data-fancybox="gallery" data-caption="Magazine Design">
+                    <img src="./assets/images/magazinedesign.png" alt="portfolio-image" class="img-fit rounded">
+                  </a>
+                </div>
+                <h3 class="portfolio-title text-center">Magazine Design</h3>
+                <p class="portfolio-description text-center">Magazine Design</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card mb-5">
+                <div class="portfolio-image rounded">
+                  <a href="./assets/images/foodbanner.png" data-fancybox="gallery" data-caption="Graphics Design">
+                    <img src="./assets/images/foodbanner.png" alt="portfolio-image" class="img-fit rounded">
+                  </a>
+                </div>
+                <h3 class="portfolio-title text-center">Graphics Design</h3>
+                <p class="portfolio-description text-center">Graphics Design</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card mb-5">
+                <div class="portfolio-image rounded">
+                  <a href="./assets/images/dumblelogo.png" data-fancybox="gallery" data-caption="Logo Collection">
+                    <img src="./assets/images/dumblelogo.png" alt="portfolio-image" class="img-fit rounded">
+                  </a>
+                </div>
+                <h3 class="portfolio-title text-center">Logo Collection</h3>
+                <p class="portfolio-description text-center">Logo Design</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card mb-5">
+                <div class="portfolio-image rounded">
+                  <a href="./assets/images/uidesign.png" data-fancybox="gallery" data-caption="ui design">
+                    <img src="./assets/images/uidesign.png" alt="portfolio-image" class="img-fit rounded">
+                  </a>
+                </div>
+                <h3 class="portfolio-title text-center">UI Design</h3>
+                <p class="portfolio-description text-center">UI Design</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-dm-6">
+              <div class="portfolio-card mb-5">
+                <div class="portfolio-image rounded">
+                  <a href="./assets/images/visitingcard.png" data-fancybox="gallery"
+                    data-caption="Visiting Card Design">
+                    <img src="./assets/images/visitingcard.png" alt="portfolio-image" class="img-fit rounded">
+                  </a>
+                </div>
+                <h3 class="portfolio-title text-center">Visiting Card Design</h3>
+                <p class="portfolio-description text-center">Visiting card</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card mb-5">
+                <div class="portfolio-image rounded">
+                  <a href="./assets/images/brochuredesign.png" data-fancybox="gallery" data-caption="Brochure Design">
+                    <img src="./assets/images/brochuredesign.png" alt="portfolio-image" class="img-fit rounded">
+                  </a>
+                </div>
+                <h3 class="portfolio-title text-center">Brochure Design</h3>
+                <p class="portfolio-description text-center">Brochure Design</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card rounded">
+                <div class="portfolio-image">
+                  <a href="./assets/images/posterdesign.png" data-fancybox="gallery" data-caption="Poster Design">
+                    <img src="./assets/images/posterdesign.png" alt="portfolio-image" class="img-fit rounded">
+                  </a>
+                </div>
+                <h3 class="portfolio-title text-center">Poster Design</h3>
+                <p class="portfolio-description text-center">Poster Design</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="portfolio-card mb-5">
-            <div class="portfolio-image rounded">
-              <a href="./assets/images/portfolio-7.webp" data-fancybox="gallery">
-                <img src="./assets/images/portfolio-7.webp" alt="portfolio-image" class="img-fit rounded">
-              </a>
+
+        <!-- Branding Design-->
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card rounded">
+                <div class="portfolio-image">
+                  <a href="./assets/images/dumblelogo.png" data-fancybox="gallery" data-caption="Branding Logo">
+                    <img src="./assets/images/dumblelogo.png" alt="portfolio-image" class="img-fit-rounded">
+                  </a>
+                </div>
+              </div>
             </div>
-            <h3 class="portfolio-title text-center">E-commerce Platform</h3>
-            <p class="portfolio-description text-center">Modern online shopping experience</p>
+            <!-- <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card rounded">
+                <div class="portfolio-image">
+                  <a href="./assets/images/" data-fancybox="gallery" data-caption="Branding Logo">
+                    <img src="./assets/images/" alt="portfolio-image" class="img-fit-rounded">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card rounded">
+                <div class="portfolio-image">
+                  <a href="./assets/images/" data-fancybox="gallery" data-caption="Branding Logo">
+                    <img src="./assets/images/" alt="portfolio-image" class="img-fit-rounded">
+                  </a>
+                </div>
+              </div>
+            </div> -->
+
           </div>
         </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="portfolio-card mb-5">
-            <div class="portfolio-image rounded">
-              <a href="./assets/images/portfolio-portrait-5.webp" data-fancybox="gallery">
-                <img src="./assets/images/Untitled-1.jpg" alt="portfolio-image" class="img-fit rounded">
-              </a>
+
+        <!-- Website Design -->
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card rounded">
+                <div class="portfolio-image">
+                  <a href="./assets/images/travelworld.png" data-fancybox="gallery" data-caption="Website Design">
+                    <img src="./assets/images/travelworld.png" alt="portfolio-image" class="img-fit-rounded">
+                  </a>
+                </div>
+              </div>
             </div>
-            <h3 class="portfolio-title text-center">Magazine Design</h3>
-            <p class="portfolio-description text-center">Magazine Design</p>
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card rounded mb-5">
+                <div class="portfolio-image">
+                  <a href="./assets/images/shoezone.png" data-fancybox="gallery" data-caption="Website Design">
+                    <img src="./assets/images/shoezone.png" alt="portfolio-image" class="img-fit-rounded">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card rounded mb-5">
+                <div class="portfolio-image">
+                  <a href="./assets/images/coffeemaster.png" data-fancybox="gallery" data-caption="Website Design">
+                    <img src="./assets/images/coffeemaster.png" alt="portfolio-image" class="img-fit-rounded">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card rounded mb-5">
+                <div class="portfolio-image">
+                  <a href="./assets/images/barbershop.png" data-fancybox="gallery" data-caption="website Design">
+                    <img src="./assets/images/barbershop.png" alt="portfolio-image" class="img-fit-rounded">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card rounded mb-5">
+                <div class="portfolio-image">
+                  <a href="./assets/images/endurance.png" data-fancybox="gallery" data-caption="website Design">
+                    <img src="./assets/images/endurance.png" alt="portfolio-image" class="img-fit-rounded">
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="portfolio-card mb-5">
-            <div class="portfolio-image rounded">
-              <img src="./assets/images/portfolio-8.webp" alt="portfolio-image" class="img-fit rounded">
+
+        <!-- Poster Design -->
+        <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
+          tabindex="0">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card rounded mb-5">
+                <div class="portfolio-image">
+                  <a href="./assets/images/posterdesign.png" data-fancybox="gallery" data-caption="Poster Design">
+                    <img src="./assets/images/posterdesign.png" alt="portfolio-image" class="img-fit-rounded">
+                  </a>
+                </div>
+              </div>
             </div>
-            <h3 class="portfolio-title text-center">Motion Graphics</h3>
-            <p class="portfolio-description text-center">Animated visual storytelling</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="portfolio-card mb-5">
-            <div class="portfolio-image rounded">
-              <img src="./assets/images/portfolio-9.webp" alt="portfolio-image" class="img-fit rounded">
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card rounded mb-5">
+                <div class="portfolio-image">
+                  <a href="./assets/images/posterdesign1.png" data-fancybox="gallery" data-caption="Poster Design">
+                    <img src="./assets/images/posterdesign1.png" alt="portfolio-image" class="img-fit-rounded">
+                  </a>
+                </div>
+              </div>
             </div>
-            <h3 class="portfolio-title text-center">Logo Collection</h3>
-            <p class="portfolio-description text-center">Diverse brand mark explorations</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="portfolio-card mb-5">
-            <div class="portfolio-image rounded">
-              <img src="./assets/images/portfolio-portrait-8.webp" alt="portfolio-image" class="img-fit rounded">
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card rounded mb-5">
+                <div class="portfolio-image">
+                  <a href="./assets/images/posterdesign2.png" data-fancybox="gallery" data-caption="Poster Design">
+                    <img src="./assets/images/posterdesign2.png" alt="portfolio-image" class="img-fit-rounded">
+                  </a>
+                </div>
+              </div>
             </div>
-            <h3 class="portfolio-title text-center">Mobile App Design</h3>
-            <p class="portfolio-description text-center">Mobile App Design</p>
           </div>
-        </div>
-        <div class="col-md-4 col-dm-6">
-          <div class="portfolio-card mb-5">
-            <div class="portfolio-image rounded">
-              <img src="./assets/images/portfolio-10.webp" alt="portfolio-image" class="img-fit rounded">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card rounded mb-5">
+                <div class="portfolio-image">
+                  <a href="./assets/images/posterdesign3.png" data-fancybox="gallery" data-caption="Poster Design">
+                    <img src="./assets/images/posterdesign3.png" alt="portfolio-image" class="img-fit-rounded">
+                  </a>
+                </div>
+              </div>
             </div>
-            <h3 class="portfolio-title text-center">Packaging Design</h3>
-            <p class="portfolio-description text-center">Sustainable product packaging solutions</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="portfolio-card mb-5">
-            <div class="portfolio-image rounded">
-              <img src="./assets/images/portfolio-11.webp" alt="portfolio-image" class="img-fit rounded">
+            <div class="col-md-4 col-sm-6">
+              <div class="portfolio-card rounded mb-5">
+                <div class="portfolio-image">
+                  <a href="./assets/images/posterdesign4.png" data-fancybox="gallery" data-caption="Poster Design">
+                    <img src="./assets/images/posterdesign4.png" alt="portfolio-image" class="img-fit-rounded">
+                  </a>
+                </div>
+              </div>
             </div>
-            <h3 class="portfolio-title text-center">Brand Animation</h3>
-            <p class="portfolio-description text-center">Dynamic brand identity systems</p>
           </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="portfolio-card rounded">
-            <div class="portfolio-image">
-              <img src="./assets/images/Untitled-1.jpg" alt="portfolio-image" class="img-fit rounded">
-            </div>
-            <h3 class="portfolio-title text-center">Magazine Design</h3>
-            <p class="portfolio-description text-center">Magazine Design</p>
-          </div>
+
+
         </div>
       </div>
     </div>
   </section>
+
+
+
+
 
   <!-- Testimonials Section Start -->
 

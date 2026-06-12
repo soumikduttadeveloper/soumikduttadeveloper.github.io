@@ -5,8 +5,6 @@
         font-size: 22px;
     }
 
-    /* *, *::after, *::before { outline: 1px solid red; } */
-
     .header-section .primary-nav ul li a {
         font-size: 14px;
     }
@@ -129,91 +127,552 @@
 
 /* 992 dekhbi */
 @media only screen and (max-width:1024px) {
-    .hero {
-        padding: 55px 0px;
-
-    }
-
     .intro-text h1 {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .hero .display-heading {
-        font-size: 24px;
+        font-size: 20px;
     }
 
-    .hero .intro-text p {
-        font-size: 12px;
+    .hero {
+        padding: 20px 0px;
     }
 
-    .hero .intro-text .cta-buttons .btn-work {
-        font-size: 11px;
-    }
-
-    .hero .intro-text .cta-buttons .link-underline {
-        font-size: 12px;
-    }
-
-    .hero .meta .meta-item i {
-        font-size: 12px;
+    .navbar-toggler-icon {
+        width: 16px;
+        height: 30px;
     }
 
     .hero .meta .meta-item span {
-        font-size: 12px;
+        font-size: 14px;
     }
+
+    .hero .intro-text .cta-buttons .btn-work {
+        font-size: 13px;
+    }
+
+    .about {
+        padding: 10px 0px;
+    }
+
+    .about .facts-wrap {
+        margin-top: 40px;
+    }
+
+    .about .section-title p {
+        margin-bottom: 50px;
+    }
+
+    .about .intro-content h2 {
+        text-align: center;
+    }
+
+    .about .intro-content h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about .intro-content p {
+        font-size: 13px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .about .intro-content .content-text {
+        font-size: 14px;
+        color: #201e1e;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    .intro-content .cta-group .btn-ghost {
+        padding: 14px 15px;
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    .intro-content .cta-group .link-underline {
+        font-size: 14px;
+    }
+
+    .hero .intro-text .cta-buttons .link-underline {
+        font-size: 13px;
+    }
+
+    .about .skills-wrap .skill-item {
+        padding: 35px 15px;
+        margin: 15px 0px;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .about .personal-quote p {
+        font-size: 15px;
+    }
+
+    .skill .section-title h2 {
+        font-size: 26px;
+        margin-top: 30px;
+    }
+
+    .skill .section-title p {
+        margin-bottom: 30px;
+    }
+
+    .skill-block {
+        margin-bottom: 30px;
+    }
+
+
+    .skill .section-title p {
+        font-size: 13px;
+    }
+
+    .skill .note p {
+        font-size: 13px;
+        margin: 50px 0;
+    }
+
+    .nav-item .nav-link {
+        display: none;
+    }
+
+    .skill {
+        padding: 0px;
+    }
+
+    .portfolio .resume-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact .contact-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact-form .form-intro-text h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .contact-form .form-intro-text p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contact-form .send-button {
+        font-size: 10px;
+    }
+
+    .contact-sidebar {
+        padding: 30px 22px;
+        margin: 35px 0px 0px 0px;
+    }
+
+    .contact-sidebar .contact-header h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-header p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-process .contact-text p {
+        font-size: 13px;
+    }
+
+    .contact-sidebar .contact-process .contact-text h3 {
+        font-size: 13px;
+    }
+
+    .contact {
+        padding: 0px;
+    }
+
+    .footer {
+        background-color: #ffffff;
+        padding: 22px;
+    }
+
+    .footer .copyright-text h2 {
+        font-size: 13px;
+    }
+
+    .footer .social-links-connect a i {
+        font-size: 14px;
+        padding: 5px 9px;
+    }
+
 }
 
 /* 901 dekhbi */
 @media only screen and (max-width:991px) {
+    .intro-text h1 {
+        font-size: 14px;
+    }
+
+    .hero .display-heading {
+        font-size: 20px;
+    }
+
+    .hero {
+        padding: 20px 0px;
+    }
+
     .navbar-toggler-icon {
         width: 16px;
         height: 30px;
     }
 
-    .skill .skill-block .skill-descrip {
+    .hero .meta .meta-item span {
+        font-size: 14px;
+    }
+
+    .hero .intro-text .cta-buttons .btn-work {
+        font-size: 13px;
+    }
+
+    .about {
+        padding: 10px 0px;
+    }
+
+    .about .facts-wrap {
+        margin-top: 40px;
+    }
+
+    .about .section-title p {
+        margin-bottom: 50px;
+    }
+
+    .about .intro-content h2 {
+        text-align: center;
+    }
+
+    .about .intro-content h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about .intro-content p {
+        font-size: 13px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .about .intro-content .content-text {
+        font-size: 14px;
+        color: #201e1e;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    .intro-content .cta-group .btn-ghost {
+        padding: 14px 15px;
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    .intro-content .cta-group .link-underline {
+        font-size: 14px;
+    }
+
+    .hero .intro-text .cta-buttons .link-underline {
+        font-size: 13px;
+    }
+
+    .about .skills-wrap .skill-item {
+        padding: 35px 15px;
+        margin: 15px 0px;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .about .personal-quote p {
+        font-size: 15px;
+    }
+
+    .skill .section-title h2 {
+        font-size: 26px;
+        margin-top: 30px;
+    }
+
+    .skill .section-title p {
+        margin-bottom: 30px;
+    }
+
+    .skill-block {
+        margin-bottom: 30px;
+    }
+
+
+    .skill .section-title p {
         font-size: 13px;
     }
 
     .skill .note p {
-        margin: 110px 0;
-    }
-
-    .skill .soft-card {
-        padding: 20px 15px;
+        font-size: 13px;
         margin: 50px 0;
     }
 
-    .resume-section {
-        margin-bottom: 50px;
+    .nav-item .nav-link {
+        display: none;
     }
+
+    .skill {
+        padding: 0px;
+    }
+
+    .portfolio .resume-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact .contact-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact-form .form-intro-text h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .contact-form .form-intro-text p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contact-form .send-button {
+        font-size: 10px;
+    }
+
+    .contact-sidebar {
+        padding: 30px 22px;
+        margin: 35px 0px 0px 0px;
+    }
+
+    .contact-sidebar .contact-header h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-header p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-process .contact-text p {
+        font-size: 13px;
+    }
+
+    .contact-sidebar .contact-process .contact-text h3 {
+        font-size: 13px;
+    }
+
+    .contact {
+        padding: 0px;
+    }
+
+    .footer {
+        background-color: #ffffff;
+        padding: 22px;
+    }
+
+    .footer .copyright-text h2 {
+        font-size: 13px;
+    }
+
+    .footer .social-links-connect a i {
+        font-size: 14px;
+        padding: 5px 9px;
+    }
+
+
 }
 
 
 
 
-/* 768 dekhbi */
+/* 768 dekhbi Image or Text r Majhe gap hocchee */
 @media only screen and (max-width:900px) {
+    .intro-text h1 {
+        font-size: 14px;
+    }
+
+    .hero .display-heading {
+        font-size: 20px;
+    }
+
+    .hero {
+        padding: 20px 0px;
+    }
+
     .navbar-toggler-icon {
         width: 16px;
         height: 30px;
     }
 
-    .skill .skill-block .skill-descrip {
+    .hero .meta .meta-item span {
+        font-size: 14px;
+    }
+
+    .hero .intro-text .cta-buttons .btn-work {
+        font-size: 13px;
+    }
+
+    .about {
+        padding: 10px 0px;
+    }
+
+    .about .facts-wrap {
+        margin-top: 40px;
+    }
+
+    .about .section-title p {
+        margin-bottom: 50px;
+    }
+
+    .about .intro-content h2 {
+        text-align: center;
+    }
+
+    .about .intro-content h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about .intro-content p {
+        font-size: 13px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .about .intro-content .content-text {
+        font-size: 14px;
+        color: #201e1e;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    .intro-content .cta-group .btn-ghost {
+        padding: 14px 15px;
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    .intro-content .cta-group .link-underline {
+        font-size: 14px;
+    }
+
+    .hero .intro-text .cta-buttons .link-underline {
+        font-size: 13px;
+    }
+
+    .about .skills-wrap .skill-item {
+        padding: 35px 15px;
+        margin: 15px 0px;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .about .personal-quote p {
+        font-size: 15px;
+    }
+
+    .skill .section-title h2 {
+        font-size: 26px;
+        margin-top: 30px;
+    }
+
+    .skill .section-title p {
+        margin-bottom: 30px;
+    }
+
+    .skill-block {
+        margin-bottom: 30px;
+    }
+
+
+    .skill .section-title p {
         font-size: 13px;
     }
 
     .skill .note p {
-        margin: 110px 0;
-    }
-
-    .skill .soft-card {
-        padding: 20px 15px;
+        font-size: 13px;
         margin: 50px 0;
     }
 
-    .resume-section {
-        margin-bottom: 50px;
+    .nav-item .nav-link {
+        display: none;
     }
+
+    .skill {
+        padding: 0px;
+    }
+
+    .portfolio .resume-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact .contact-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact-form .form-intro-text h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .contact-form .form-intro-text p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contact-form .send-button {
+        font-size: 10px;
+    }
+
+    .contact-sidebar {
+        padding: 30px 22px;
+        margin: 35px 0px 0px 0px;
+    }
+
+    .contact-sidebar .contact-header h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-header p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-process .contact-text p {
+        font-size: 13px;
+    }
+
+    .contact-sidebar .contact-process .contact-text h3 {
+        font-size: 13px;
+    }
+
+    .contact {
+        padding: 0px;
+    }
+
+    .footer {
+        background-color: #ffffff;
+        padding: 22px;
+    }
+
+    .footer .copyright-text h2 {
+        font-size: 13px;
+    }
+
+    .footer .social-links-connect a i {
+        font-size: 14px;
+        padding: 5px 9px;
+    }
+
 }
 
 
@@ -222,27 +681,184 @@
 
 /* 601 dekhbi */
 @media only screen and (max-width:767px) {
+    .intro-text h1 {
+        font-size: 14px;
+    }
+
+    .hero .display-heading {
+        font-size: 20px;
+    }
+
+    .hero {
+        padding: 20px 0px;
+    }
+
     .navbar-toggler-icon {
         width: 16px;
         height: 30px;
     }
 
-    .skill .skill-block .skill-descrip {
+    .hero .meta .meta-item span {
+        font-size: 14px;
+    }
+
+    .hero .intro-text .cta-buttons .btn-work {
+        font-size: 13px;
+    }
+
+    .about {
+        padding: 10px 0px;
+    }
+
+    .about .facts-wrap {
+        margin-top: 40px;
+    }
+
+    .about .section-title p {
+        margin-bottom: 50px;
+    }
+
+    .about .intro-content h2 {
+        text-align: center;
+    }
+
+    .about .intro-content h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about .intro-content p {
+        font-size: 13px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .about .intro-content .content-text {
+        font-size: 14px;
+        color: #201e1e;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    .intro-content .cta-group .btn-ghost {
+        padding: 14px 15px;
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    .intro-content .cta-group .link-underline {
+        font-size: 14px;
+    }
+
+    .hero .intro-text .cta-buttons .link-underline {
+        font-size: 13px;
+    }
+
+    .about .skills-wrap .skill-item {
+        padding: 35px 15px;
+        margin: 15px 0px;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .about .personal-quote p {
+        font-size: 15px;
+    }
+
+    .skill .section-title h2 {
+        font-size: 26px;
+        margin-top: 30px;
+    }
+
+    .skill .section-title p {
+        margin-bottom: 30px;
+    }
+
+    .skill-block {
+        margin-bottom: 30px;
+    }
+
+
+    .skill .section-title p {
         font-size: 13px;
     }
 
     .skill .note p {
-        margin: 110px 0;
-    }
-
-    .skill .soft-card {
-        padding: 20px 15px;
+        font-size: 13px;
         margin: 50px 0;
     }
 
-    .resume-section {
-        margin-bottom: 50px;
+    .nav-item .nav-link {
+        display: none;
     }
+
+    .skill {
+        padding: 0px;
+    }
+
+    .portfolio .resume-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact .contact-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact-form .form-intro-text h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .contact-form .form-intro-text p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contact-form .send-button {
+        font-size: 10px;
+    }
+
+    .contact-sidebar {
+        padding: 30px 22px;
+        margin: 35px 0px 0px 0px;
+    }
+
+    .contact-sidebar .contact-header h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-header p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-process .contact-text p {
+        font-size: 13px;
+    }
+
+    .contact-sidebar .contact-process .contact-text h3 {
+        font-size: 13px;
+    }
+
+    .contact {
+        padding: 0px;
+    }
+
+    .footer {
+        background-color: #ffffff;
+        padding: 22px;
+    }
+
+    .footer .copyright-text h2 {
+        font-size: 13px;
+    }
+
+    .footer .social-links-connect a i {
+        font-size: 14px;
+        padding: 5px 9px;
+    }
+
 }
 
 
@@ -251,27 +867,184 @@
 
 /* 576 dekhbi */
 @media only screen and (max-width:600px) {
+    .intro-text h1 {
+        font-size: 14px;
+    }
+
+    .hero .display-heading {
+        font-size: 20px;
+    }
+
+    .hero {
+        padding: 20px 0px;
+    }
+
     .navbar-toggler-icon {
         width: 16px;
         height: 30px;
     }
 
-    .skill .skill-block .skill-descrip {
+    .hero .meta .meta-item span {
+        font-size: 14px;
+    }
+
+    .hero .intro-text .cta-buttons .btn-work {
+        font-size: 13px;
+    }
+
+    .about {
+        padding: 10px 0px;
+    }
+
+    .about .facts-wrap {
+        margin-top: 40px;
+    }
+
+    .about .section-title p {
+        margin-bottom: 50px;
+    }
+
+    .about .intro-content h2 {
+        text-align: center;
+    }
+
+    .about .intro-content h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about .intro-content p {
+        font-size: 13px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .about .intro-content .content-text {
+        font-size: 14px;
+        color: #201e1e;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    .intro-content .cta-group .btn-ghost {
+        padding: 14px 15px;
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    .intro-content .cta-group .link-underline {
+        font-size: 14px;
+    }
+
+    .hero .intro-text .cta-buttons .link-underline {
+        font-size: 13px;
+    }
+
+    .about .skills-wrap .skill-item {
+        padding: 35px 15px;
+        margin: 15px 0px;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .about .personal-quote p {
+        font-size: 15px;
+    }
+
+    .skill .section-title h2 {
+        font-size: 26px;
+        margin-top: 30px;
+    }
+
+    .skill .section-title p {
+        margin-bottom: 30px;
+    }
+
+    .skill-block {
+        margin-bottom: 30px;
+    }
+
+
+    .skill .section-title p {
         font-size: 13px;
     }
 
     .skill .note p {
-        margin: 110px 0;
-    }
-
-    .skill .soft-card {
-        padding: 20px 15px;
+        font-size: 13px;
         margin: 50px 0;
     }
 
-    .resume-section {
-        margin-bottom: 50px;
+    .nav-item .nav-link {
+        display: none;
     }
+
+    .skill {
+        padding: 0px;
+    }
+
+    .portfolio .resume-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact .contact-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact-form .form-intro-text h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .contact-form .form-intro-text p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contact-form .send-button {
+        font-size: 10px;
+    }
+
+    .contact-sidebar {
+        padding: 30px 22px;
+        margin: 35px 0px 0px 0px;
+    }
+
+    .contact-sidebar .contact-header h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-header p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-process .contact-text p {
+        font-size: 13px;
+    }
+
+    .contact-sidebar .contact-process .contact-text h3 {
+        font-size: 13px;
+    }
+
+    .contact {
+        padding: 0px;
+    }
+
+    .footer {
+        background-color: #ffffff;
+        padding: 22px;
+    }
+
+    .footer .copyright-text h2 {
+        font-size: 13px;
+    }
+
+    .footer .social-links-connect a i {
+        font-size: 14px;
+        padding: 5px 9px;
+    }
+
 }
 
 
@@ -280,27 +1053,184 @@
 
 /* 481 dekhbi */
 @media only screen and (max-width:575px) {
+    .intro-text h1 {
+        font-size: 14px;
+    }
+
+    .hero .display-heading {
+        font-size: 20px;
+    }
+
+    .hero {
+        padding: 20px 0px;
+    }
+
     .navbar-toggler-icon {
         width: 16px;
         height: 30px;
     }
 
-    .skill .skill-block .skill-descrip {
+    .hero .meta .meta-item span {
+        font-size: 14px;
+    }
+
+    .hero .intro-text .cta-buttons .btn-work {
+        font-size: 13px;
+    }
+
+    .about {
+        padding: 10px 0px;
+    }
+
+    .about .facts-wrap {
+        margin-top: 40px;
+    }
+
+    .about .section-title p {
+        margin-bottom: 50px;
+    }
+
+    .about .intro-content h2 {
+        text-align: center;
+    }
+
+    .about .intro-content h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about .intro-content p {
+        font-size: 13px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .about .intro-content .content-text {
+        font-size: 14px;
+        color: #201e1e;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    .intro-content .cta-group .btn-ghost {
+        padding: 14px 15px;
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    .intro-content .cta-group .link-underline {
+        font-size: 14px;
+    }
+
+    .hero .intro-text .cta-buttons .link-underline {
+        font-size: 13px;
+    }
+
+    .about .skills-wrap .skill-item {
+        padding: 35px 15px;
+        margin: 15px 0px;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .about .personal-quote p {
+        font-size: 15px;
+    }
+
+    .skill .section-title h2 {
+        font-size: 26px;
+        margin-top: 30px;
+    }
+
+    .skill .section-title p {
+        margin-bottom: 30px;
+    }
+
+    .skill-block {
+        margin-bottom: 30px;
+    }
+
+
+    .skill .section-title p {
         font-size: 13px;
     }
 
     .skill .note p {
-        margin: 110px 0;
-    }
-
-    .skill .soft-card {
-        padding: 20px 15px;
+        font-size: 13px;
         margin: 50px 0;
     }
 
-    .resume-section {
-        margin-bottom: 50px;
+    .nav-item .nav-link {
+        display: none;
     }
+
+    .skill {
+        padding: 0px;
+    }
+
+    .portfolio .resume-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact .contact-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact-form .form-intro-text h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .contact-form .form-intro-text p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contact-form .send-button {
+        font-size: 10px;
+    }
+
+    .contact-sidebar {
+        padding: 30px 22px;
+        margin: 35px 0px 0px 0px;
+    }
+
+    .contact-sidebar .contact-header h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-header p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-process .contact-text p {
+        font-size: 13px;
+    }
+
+    .contact-sidebar .contact-process .contact-text h3 {
+        font-size: 13px;
+    }
+
+    .contact {
+        padding: 0px;
+    }
+
+    .footer {
+        background-color: #ffffff;
+        padding: 22px;
+    }
+
+    .footer .copyright-text h2 {
+        font-size: 13px;
+    }
+
+    .footer .social-links-connect a i {
+        font-size: 14px;
+        padding: 5px 9px;
+    }
+
 }
 
 
@@ -309,27 +1239,181 @@
 
 /* 421 dekhbi */
 @media only screen and (max-width:480px) {
+    .intro-text h1 {
+        font-size: 14px;
+    }
+
+    .hero .display-heading {
+        font-size: 20px;
+    }
+
+    .hero {
+        padding: 20px 0px;
+    }
+
     .navbar-toggler-icon {
         width: 16px;
         height: 30px;
     }
 
-    .skill .skill-block .skill-descrip {
+    .hero .meta .meta-item span {
+        font-size: 14px;
+    }
+
+    .hero .intro-text .cta-buttons .btn-work {
+        font-size: 12px;
+    }
+
+    .about {
+        padding: 10px 0px;
+    }
+
+    .about .facts-wrap {
+        margin-top: 40px;
+    }
+
+    .about .section-title p {
+        margin-bottom: 50px;
+    }
+
+    .about .intro-content h2 {
+        text-align: center;
+    }
+
+    .about .intro-content h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about .intro-content p {
+        font-size: 13px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .about .intro-content .content-text {
+        font-size: 14px;
+        color: #201e1e;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    .intro-content .cta-group .btn-ghost {
+        padding: 14px 15px;
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    .intro-content .cta-group .link-underline {
+        font-size: 14px;
+    }
+
+    .about .skills-wrap .skill-item {
+        padding: 35px 15px;
+        margin: 15px 0px;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .about .personal-quote p {
+        font-size: 15px;
+    }
+
+    .skill .section-title h2 {
+        font-size: 26px;
+        margin-top: 30px;
+    }
+
+    .skill .section-title p {
+        margin-bottom: 30px;
+    }
+
+    .skill-block {
+        margin-bottom: 30px;
+    }
+
+
+    .skill .section-title p {
         font-size: 13px;
     }
 
     .skill .note p {
-        margin: 110px 0;
-    }
-
-    .skill .soft-card {
-        padding: 20px 15px;
+        font-size: 13px;
         margin: 50px 0;
     }
 
-    .resume-section {
-        margin-bottom: 50px;
+    .nav-item .nav-link {
+        display: none;
     }
+
+    .skill {
+        padding: 0px;
+    }
+
+    .portfolio .resume-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact .contact-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact-form .form-intro-text h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .contact-form .form-intro-text p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contact-form .send-button {
+        font-size: 10px;
+    }
+
+    .contact-sidebar {
+        padding: 30px 22px;
+        margin: 35px 0px 0px 0px;
+    }
+
+    .contact-sidebar .contact-header h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-header p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-process .contact-text p {
+        font-size: 13px;
+    }
+
+    .contact-sidebar .contact-process .contact-text h3 {
+        font-size: 13px;
+    }
+
+    .contact {
+        padding: 0px;
+    }
+
+    .footer {
+        background-color: #ffffff;
+        padding: 22px;
+    }
+
+    .footer .copyright-text h2 {
+        font-size: 13px;
+    }
+
+    .footer .social-links-connect a i {
+        font-size: 14px;
+        padding: 5px 9px;
+    }
+
+
 }
 
 
@@ -338,55 +1422,365 @@
 
 /* 351 dekhbi */
 @media only screen and (max-width:420px) {
+    .intro-text h1 {
+        font-size: 14px;
+    }
+
+    .hero .display-heading {
+        font-size: 20px;
+    }
+
+    .hero {
+        padding: 20px 0px;
+    }
+
     .navbar-toggler-icon {
         width: 16px;
         height: 30px;
     }
 
-    .skill .skill-block .skill-descrip {
+    .hero .meta .meta-item span {
+        font-size: 14px;
+    }
+
+
+    .about {
+        padding: 10px 0px;
+    }
+
+    .about .facts-wrap {
+        margin-top: 40px;
+    }
+
+    .about .section-title p {
+        margin-bottom: 50px;
+    }
+
+    .about .intro-content h2 {
+        text-align: center;
+    }
+
+    .about .intro-content h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about .intro-content p {
+        font-size: 13px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .about .intro-content .content-text {
+        font-size: 14px;
+        color: #201e1e;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    .intro-content .cta-group .btn-ghost {
+        padding: 14px 15px;
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    .intro-content .cta-group .link-underline {
+        font-size: 14px;
+    }
+
+    .about .skills-wrap .skill-item {
+        padding: 20px 15px;
+        margin: 15px 0px;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .about .personal-quote p {
+        font-size: 20px;
+    }
+
+    .skill .section-title h2 {
+        font-size: 26px;
+        margin-top: 30px;
+    }
+
+    .skill .section-title p {
+        margin-bottom: 30px;
+    }
+
+    .skill-block {
+        margin-bottom: 30px;
+    }
+
+
+    .skill .section-title p {
         font-size: 13px;
     }
 
     .skill .note p {
-        margin: 110px 0;
-    }
-
-    .skill .soft-card {
-        padding: 20px 15px;
+        font-size: 13px;
         margin: 50px 0;
     }
 
-    .resume-section {
-        margin-bottom: 50px;
+    .nav-item .nav-link {
+        display: none;
     }
+
+    .skill {
+        padding: 0px;
+    }
+
+    .portfolio .resume-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact .contact-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact-form .form-intro-text h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .contact-form .form-intro-text p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contact-form .send-button {
+        font-size: 10px;
+    }
+
+    .contact-sidebar {
+        padding: 30px 22px;
+        margin: 35px 0px 0px 0px;
+    }
+
+    .contact-sidebar .contact-header h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-header p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-process .contact-text p {
+        font-size: 13px;
+    }
+
+    .contact-sidebar .contact-process .contact-text h3 {
+        font-size: 13px;
+    }
+
+    .contact {
+        padding: 0px;
+    }
+
+    .footer {
+        background-color: #ffffff;
+        padding: 22px;
+    }
+
+    .footer .copyright-text h2 {
+        font-size: 13px;
+    }
+
+    .footer .social-links-connect a i {
+        font-size: 14px;
+        padding: 5px 9px;
+    }
+
 }
+
+
 
 
 
 
 /* 301 dekhbi */
 @media only screen and (max-width:350px) {
+    .intro-text h1 {
+        font-size: 14px;
+    }
+
+    .hero .display-heading {
+        font-size: 20px;
+    }
+
+    .hero {
+        padding: 20px 0px;
+    }
+
     .navbar-toggler-icon {
         width: 16px;
         height: 30px;
     }
 
-    .skill .skill-block .skill-descrip {
+    .about {
+        padding: 10px 0px;
+    }
+
+    .about .facts-wrap {
+        margin-top: 40px;
+    }
+
+    .about .section-title p {
+        margin-bottom: 50px;
+    }
+
+    .about .intro-content h2 {
+        text-align: center;
+    }
+
+    .about .intro-content h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about .intro-content p {
+        font-size: 13px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .about .intro-content .content-text {
+        font-size: 14px;
+        color: #201e1e;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    .intro-content .cta-group .btn-ghost {
+        padding: 14px 15px;
+        font-size: 10px;
+        gap: 5px;
+    }
+
+    .intro-content .cta-group .link-underline {
+        font-size: 12px;
+    }
+
+    .about .skills-wrap .skill-item {
+        padding: 20px 15px;
+        margin: 15px 0px;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .about .personal-quote p {
+        font-size: 20px;
+    }
+
+    .skill .section-title h2 {
+        font-size: 26px;
+        margin-top: 30px;
+    }
+
+    .skill .section-title p {
+        margin-bottom: 30px;
+    }
+
+    .skill-block {
+        margin-bottom: 30px;
+    }
+
+
+    .skill .section-title p {
         font-size: 13px;
     }
 
     .skill .note p {
-        margin: 110px 0;
-    }
-
-    .skill .soft-card {
-        padding: 20px 15px;
+        font-size: 13px;
         margin: 50px 0;
     }
 
-    .resume-section {
-        margin-bottom: 50px;
+    .nav-item .nav-link {
+        display: none;
     }
 
+    .skill {
+        padding: 0px;
+    }
 
+    .portfolio .resume-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact .contact-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact-form .form-intro-text h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .contact-form .form-intro-text p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contact-form .send-button {
+        font-size: 10px;
+    }
+
+    .contact-sidebar {
+        padding: 30px 22px;
+        margin: 35px 0px 0px 0px;
+    }
+
+    .contact-sidebar .contact-header h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-header p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .contact-sidebar .contact-process .contact-text p {
+        font-size: 13px;
+    }
+
+    .contact-sidebar .contact-process .contact-text h3 {
+        font-size: 13px;
+    }
+
+    .contact {
+        padding: 0px;
+    }
+
+    .footer {
+        background-color: #ffffff;
+        padding: 22px;
+    }
+
+    .footer .copyright-text h2 {
+        font-size: 13px;
+    }
+
+    .footer .social-links-connect a i {
+        font-size: 14px;
+        padding: 5px 9px;
+    }
 }
+
+
+/*breakpoints
+1440px
+1366px
+1199px
+1024px
+991px
+900px
+767px
+600px
+575px
+480px
+420px
+350px
+300px*/
